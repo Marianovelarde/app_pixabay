@@ -11,7 +11,7 @@ class Buscador extends Component {
        
        this.props.datosBusqueda(termino)
     }
-    render() {
+    render() { 
         return (
             <form onSubmit={this.obtenerDatos}>
                 <div className='row'>
